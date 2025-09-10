@@ -11,15 +11,25 @@ namespace OPP_Alapok
     {
         public class Szemely 
         { 
-            public string nev = "Jani";
-            public int kor = 67;
+            private string nev;
+            private int kor;
             
+            public Szemely(string Nev, int Kor)
+            {
+                nev = Nev;
+                kor = Kor;
+            }
+
+            public string Kiir()
+            {
+                return $"A tanuló neve {nev} és {kor} éves.";
+            }
         }
 
         static void Main(string[] args)
         {
-            Szemely tanulo1 = new Szemely();
-            Console.WriteLine($"A tanuló neve {tanulo1.nev} és {tanulo1.kor} éves.");
+            Szemely tanulo1 = new Szemely("Laura",67);
+            Console.WriteLine(tanulo1.Kiir());
         }
     }
 }
