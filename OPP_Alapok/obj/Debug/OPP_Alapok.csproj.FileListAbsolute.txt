@@ -1,0 +1,8 @@
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\bin\Debug\OPP_Alapok.exe.config
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\bin\Debug\OPP_Alapok.exe
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\bin\Debug\OPP_Alapok.pdb
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\obj\Debug\OPP_Alapok.csproj.AssemblyReference.cache
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\obj\Debug\OPP_Alapok.csproj.CoreCompileInputs.cache
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\obj\Debug\OPP_Alapok.exe
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\obj\Debug\OPP_Alapok.pdb
+C:\Users\BirinyiJZ\source\repos\OPP_Alapok\OPP_Alapok\obj\Debug\OPP_Alapok.exe.config
