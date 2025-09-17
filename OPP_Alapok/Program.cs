@@ -54,6 +54,11 @@ namespace OOP_Alapok
 
         }
     }
+
+    public class Hallgato : Szemely 
+    {
+        private int neptukod;
+    }
     internal class Program
     {
         static void Main(string[] args)
