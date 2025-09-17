@@ -57,7 +57,20 @@ namespace OOP_Alapok
 
     public class Hallgato : Szemely 
     {
-        private int neptukod;
+        private string neptunkod;
+
+        public string Neptukod
+        {
+            get { return neptunkod; }
+            set 
+            {
+                if (value.Length <= 6)
+                    neptunkod = value;
+                else
+                    Console.WriteLine("Nem megfelelő hosszúság.");
+            }
+
+        }
 
         public void Kiir() 
         {
@@ -74,10 +87,14 @@ namespace OOP_Alapok
             tanulo1.Kor = 67;
 
             Console.WriteLine(tanulo1);
-
+            Console.WriteLine("--------------------------------------------");
             Bankszamla bankszamla1 = new Bankszamla();
             bankszamla1.Egyenleg = 5700;
             Console.WriteLine(bankszamla1.Egyenleg);
+            Console.WriteLine("--------------------------------------------");
+            Hallgato hallgato1 = new Hallgato();
+            hallgato1.Neptukod = "MLESD3";
+            Console.WriteLine(hallgato1.Neptukod);
 
         }
     }
