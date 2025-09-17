@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -87,14 +88,30 @@ namespace OOP_Alapok
             tanulo1.Kor = 67;
 
             Console.WriteLine(tanulo1);
+
             Console.WriteLine("--------------------------------------------");
+
             Bankszamla bankszamla1 = new Bankszamla();
             bankszamla1.Egyenleg = 5700;
             Console.WriteLine(bankszamla1.Egyenleg);
+
             Console.WriteLine("--------------------------------------------");
+
             Hallgato hallgato1 = new Hallgato();
             hallgato1.Neptukod = "MLESD3";
             Console.WriteLine(hallgato1.Neptukod);
+
+            Console.WriteLine("--------------------------------------------");
+
+            List<Hallgato> hallgatok = new List<Hallgato>();
+            for (int i = 0; i < 5; i++)
+            {
+                Szemely hallgato = new Hallgato();
+                Console.WriteLine($"Kérem a(z) {i+1} hallgató nevét: ");
+                hallgato.Nev = Console.ReadLine();
+                Console.WriteLine($"Kérem a(z) {i+1} hallgató életkorát: ");
+                hallgato.Kor = int.Parse(Console.ReadLine());
+            }
 
         }
     }
